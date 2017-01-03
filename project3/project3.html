@@ -1,0 +1,129 @@
+<!--
+================================================
+Project Name: P3-Portfolio
+Project Describtion: Build my own portfolio page
+Date: December 26, 2016
+Programmer Name: Yuqin Pan
+=================================================
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuqin Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="container">
+<header class="heading">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/logo_88.png" class="title-log" alt="logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin-supper">Yuqin Pan</h1>
+                <h4>Front-end Ninja</h4>
+            </div>
+        </div>
+</header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+<section class="decoration">
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive bigpicture" src="http://placekitten.com/g/1200/500" alt="bigpicture">
+        </div>
+    </div>
+</section>
+<article class="feature">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+    <div class="row text-center article">
+        <div class="col-md-4 responsive-1">
+            <img class="img-responsive" src="images/timesquare.jpg"  alt="app"
+            data-toggle="modal" data-target="#project1">
+            <h3 class="subtitle">MY FAVORITE APP</h3>
+            <a href="https://github.com/YuqinPan/P0-APP"><p>https://github.com/YuqinPan/P0-APP</p></a>
+        </div>
+         <div class="col-md-4 responsive-2">
+            <img class="img-responsive" src="images/blog.jpg"  alt="blog"
+            data-toggle="modal" data-target="#project2">
+            <h3 class="subtitle">BLOG POST</h3>
+            <a href="https://github.com/YuqinPan/P1-blog"><p>https://github.com/YuqinPan/P1-blog</p></a>
+        </div>
+         <div class="col-md-4 responsive-3">
+            <img class="img-responsive" src="images/tinything.jpg" alt="this is a panda"
+            data-toggle="modal" data-target="#project3">
+            <h3 class="subtitle">ANIMAL CARD</h3>
+            <a href="https://github.com/YuqinPan/P2-Animal-card"><p>https://github.com/YuqinPan/P2-Animal-card</p></a>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/timesquare.jpg" alt="timesquare">
+                    This was my first project in this class. This project made me have a brief understanding on what HTML is and how to use it. To be specific, I learned DOM tree structure, some basic tags, how to insert pictures and so on. Everything in HTML is interesting and attracive. I really love it!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Blog Post</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/blog.jpg" alt="blog">
+                    This was my second project in this class, which let me have more
+                    opportunities to practice HTML.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Animal Card</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/tinything.jpg" alt="tinything">
+                    This was my third project in this class which let me into the world of CSS. Actually, I learned a lot about CSS. To be specific, I learned the concept of CSS, the syntax format of CSS, the selectors and so on. In conclusion, CSS is a powerful tool
+                    to decorate the whole website!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

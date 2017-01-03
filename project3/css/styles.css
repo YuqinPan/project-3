@@ -1,0 +1,17 @@
+body {
+    color: #747704;
+    font-weight:300;
+}
+
+.text-muted {
+    color: gray;
+}
+
+.text-thin-supper {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.title-log {
+    margin-top: 20px;
+}

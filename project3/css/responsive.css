@@ -1,0 +1,197 @@
+@media screen and (max-width: 360px){
+    body{
+        width: 100vw;
+        line-height: 1.2em;
+    }
+
+    .title-log{
+        float: left;
+    }
+
+    .text-thin-supper{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .text-muted{
+        font-size: 18px;
+    }
+
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    .responsive-1{
+        max-width: 50vw;
+        order: 1;
+    }
+
+    .responsive-3{
+        max-width: 50vw;
+        order: 2;
+    }
+
+    .responsive-2{
+        order: 0;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation:landscape){
+    body{
+        width: 100vw;
+        line-height: 1.2em;
+    }
+
+    .title-log{
+        float: left;
+        width: 10vw;
+        margin-top: 10px;
+    }
+
+    hr{
+        margin: 0px;
+    }
+
+    .text-thin-supper {
+        font-weight: 100;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .bigpicture{
+        display: none;
+    }
+
+    .text-muted{
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .responsive-1{
+        max-width: 33vw;
+    }
+
+     .responsive-2{
+        max-width: 33vw;
+    }
+
+    .responsive-3{
+        max-width: 33vw;
+    }
+
+    .subtitle{
+        font-size: 12px;
+        margin:5px;
+        color: gray;
+    }
+}
+
+@media screen and (min-width: 600px){
+    body{
+        width: 100vw;
+        line-height: 1.2em;
+    }
+
+    .title-log{
+        float: left;
+        max-width: 20vw;
+        margin-top: 30px;
+    }
+
+    .text-thin-supper{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    .text-muted{
+        font-size: 18px;
+    }
+
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    .responsive-1{
+        max-width: 33vw;
+        order: 0;
+    }
+
+    .responsive-3{
+        max-width: 33vw;
+        order: 2;
+    }
+
+    .responsive-2{
+        max-width: 33vw;
+        order: 1;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation:portrait){
+    body{
+        width: 100vw;
+        line-height: 1.2em;
+    }
+
+    .title-log{
+        float: left;
+        max-width: 20vw;
+        margin-top: 30px;
+    }
+
+    .text-thin-supper{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    .text-muted{
+        font-size: 18px;
+    }
+
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    .responsive-1{
+        max-width: 48vw;
+        order: 0;
+    }
+
+    .responsive-3{
+        max-width: 48vw;
+        order: 2;
+    }
+
+    .responsive-2{
+        max-width: 48vw;
+        order: 1;
+    }
+
+    .subtitle{
+        font-size: 14px;
+        font-weight: 100;
+    }
+}
+
+
